@@ -1,82 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>electrolytix Blog</title>
-  <link rel="stylesheet" href="blog.css" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>electrolytix Blog</title>
+    <link rel="stylesheet" href="blog.css"/>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
 
-  <!-- The loading of KaTeX is deferred to speed up page rendering -->
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
 
-  <!-- To automatically render math in text elements, include the auto-render extension: -->
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
-          onload="renderMathInElement(document.body);"></script>
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      renderMathInElement(document.body, {
-        // customised options
-        // • auto-render specific keys, e.g.:
-        delimiters: [
-          {left: '$$', right: '$$', display: true},
-          {left: '$', right: '$', display: false},
-          {left: '\\(', right: '\\)', display: false},
-          {left: '\\[', right: '\\]', display: true}
-        ],
-        // • rendering keys, e.g.:
-        throwOnError : false
-      });
-    });
-  </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false},
+                    {left: '\\(', right: '\\)', display: false},
+                    {left: '\\[', right: '\\]', display: true}
+                ],
+                // • rendering keys, e.g.:
+                throwOnError: false
+            });
+        });
+    </script>
 
-  <script src="blog.js" defer></script>
+    <script src="blog.js" defer></script>
 </head>
 <body>
-  <header>
+<header>
     <div class="container">
-      <h1>electrolytix blog</h1>
-      <p>A chromium-centric file-only (server-not-needed) blog</p>
-      <p>There's a meta-blog <a href="meta-blog.html" target="_blank">here</a> where I track my progress on modifying/improving this blog's content.</p>
-      <br/>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Articles</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+        <h1>electrolytix blog</h1>
+        <h2>Creating, marketing, selling and building community through locally manufactured electrolyte (rehydration) drinks.</h2>
+        <p style="font-size: small;">This is a chromium-centric file-only (server-not-needed) blog. There's a meta-blog <a href="meta-blog.html" target="_blank">here</a> where I track my progress on modifying/improving this blog's content.</p>
+        <br/>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </div>
-  </header>
+</header>
 
-  <main class="container">
+<main class="container">
     <section class="posts">
 
-      <!-- Copy/Paste this blog and remove the inline <code>style="display: none;"</code> -->
-      <article class="post" style="display: none;">
-        <h3>My first blog entry</h3>
-        <p class="meta">A headline/comment/summary of what this blog entry is about.</p>
-        <p class="meta">2025-06-01 21:22 (UTC-7) by Daniel</p>
-        <p>I did a .fork of <a href="https://github.com/pflagerd/blog-bootstrap" target="_blank">https://github.com/pflagerd/blog-bootstrap</a></p>
-      </article>
+        <!-- Copy/Paste this blog and remove the inline <code>style="display: none;"</code> -->
+        <article class="post" style="display: none;">
+            <h3>My first blog entry</h3>
+            <p class="meta">A headline/comment/summary of what this blog entry is about.</p>
+            <p class="meta">2025-06-01 21:22 (UTC-7) by Daniel</p>
+            <p>I did a .fork of <a href="https://github.com/pflagerd/blog-bootstrap" target="_blank">https://github.com/pflagerd/blog-bootstrap</a></p>
+        </article>
 
-      <article class="post">
-        <h3>My first blog entry</h3>
-        <p class="meta">Put a headline/comment/summary of what this blog entry is about here.</p>
-        <p class="meta">2025-06-01 21:22 (UTC-7) by Daniel</p>
-        <p>I did a .fork of <a href="https://github.com/pflagerd/blog-bootstrap" target="_blank">https://github.com/pflagerd/blog-bootstrap</a></p>
-      </article>
+        <article class="post">
+            <h3>Why electrolytes and rehydration matter.</h3>
+            <p class="meta">What happened to the founder's dad to make the founder start this project.</p>
+            <p class="meta">2025-09-17 10:54 (UTC-7) by Daniel</p>
+            <p>Summer of 2025, the founder's dad, Daniel, was working with one of the founder's brothers, Robin, building an extension to Daniel's house.</p>
+            <p>The extension is a small room designed to house a kiln for Daniel's wife.</p>
+            <p>Daniel's wife was soon to retire, and Daniel was already retired.</p>
+            <p>It was a warm, but not hot day. Daniel and Robin were finishing the framing for a couple windows and decided to take a break.</p>
+            <p>With a glass of water in his hand, Daniel took a large thirsty sip.  Next thing he remembered was Robin standing over him saying, "Dad! Dad! Are you okay"</p>
+            <p>When Daniel regained consciousness, he found himself lying on his side on the ground, with the glass of water somehow unspilled and upright.</p>
+            <p>The doctor would later label the incident "orthostatic hypotension" which is quackish for "fainting".</p>
+            <p>Blood tests showed that Daniel was dehydrated, and his blood pressure was kind of low.</p>
+            <p>Daniel drank tons of water. In fact he carried a 1/2 gallon water bottle with him, which often caused people to comment on how well hydrated he must be since he drank so much water.</p>
+            <p>Having lost 50 pounds over a period of several months after retirement, Daniel had failed to adjust his blood pressure medication OR his electrolyte intake to match his new lower blood pressure.</p>
+            <p>He lowered his blood pressure medication dose, but the fainting spells were still happening - although Daniel had learned to feel them coming on and had learned how to prevent actually fainting.</p>
+            <p>So he and Robin decided to research rehydration formulas, initially based on the World Health Organization's recommendations.  They came up with a formula a little milder than the WHO's (which is designed for rapid rehydration to prevent death from dysentery).</p>
+            <p>Daniel paid for comprehensive blood-work, consulted his doctors and other experts and refined the formula over time.</p>
+            <p>The formula now contains additional components designed to replenish other electrolytes and minerals (such as magnesium).</p>
+            <p>Patrick, a serial entrepreneur, saw the potential for these kinds of electrolyte products.  These are not specifically designed for people who are working out at the gym, or do hard manual labor, but are designed for average people who may also do these kinds of activities.</p>
+            <p>Patrick also had the vision of basing the electrolytes on Puget Sound salts (from the pristine sea water discovered by the Puget Sound aquaculture businesses) and Tolt river water (which is some of the purest naturally occurring fresh water in the world).</p>
+            <p>Patrick also had the vision of locally produced electrolyte products sourced locally and specifically designed for the Puget Sound lifestyle.  Puget Sound people crave only a few things: Freedom, nature, naturally sourced ingredients, locally produced products and healthy local community.</p>
+            <p>And that's how the project got started.</p>
+        </article>
 
     </section>
-  </main>
+</main>
 
-  <footer>
+<footer>
     <div class="container">
-      <p>&copy; 2025 Daniel P. Pflager. All rights reserved.</p>
+        <p>&copy; 2025 Daniel P. Pflager. All rights reserved.</p>
     </div>
-  </footer>
+</footer>
 </body>
 </html>
